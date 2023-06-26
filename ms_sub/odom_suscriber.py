@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 
 @app.route("/odom", methods=["GET"])
-def get_battery_level():
+def get_odm():
     try:
         # Clear the request body
         request.data = None
